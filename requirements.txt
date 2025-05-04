@@ -1,0 +1,6 @@
+streamlit
+whisperx
+fpdf
+google-generativeai
+python-pptx
+python-dotenv
