@@ -1,29 +1,7 @@
-# Core libraries
 streamlit
+whisperx
 fpdf
 python-pptx
-python-dotenv
-
-# Google Gemini API
 google-generativeai
-
-# Audio handling and WhisperX dependencies
-whisperx==3.1
-torchaudio
+python-dotenv
 soundfile
-ffmpeg-python
-
-# WhisperX-specific dependencies (lightened where possible)
-numpy
-scipy
-pandas
-tqdm
-
-# Optional: only if your app uses alignment or diarization
-# Uncomment if needed:
-# numba
-# librosa
-# pyannote.audio
-
-# Compatibility (fix for some SSL/OpenSSL issues)
-certifi
