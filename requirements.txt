@@ -4,4 +4,3 @@ fpdf
 python-pptx
 google-generativeai
 python-dotenv
-soundfile
