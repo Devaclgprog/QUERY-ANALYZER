@@ -44,7 +44,7 @@ for key, value in session_defaults.items():
 # --- Helper Functions ---
 def transcribe_audio():
     with st.spinner("Transcribing audio..."):
-        model = whisperx.load_model("medium.en", device="cpu", compute_type="float32")
+        model = whisperx.load_model("base.en", device="cpu", compute_type="float32")
         result = model.transcribe(st.session_state.audio_path)
         alignment_model, metadata = whisperx.load_align_model("en", device="cpu")
         audio = whisperx.load_audio(st.session_state.audio_path)
